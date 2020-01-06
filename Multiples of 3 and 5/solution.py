@@ -1,15 +1,14 @@
+from math import *
+import sys
 def main():
-    value = 1000
-    sum = 0
-    for i in range(0, value, 3  ):
-        sum +=i
-    
-    for k in range(0, value, 5):
-        sum+=k
+    target = int(sys.argv[1])
+    numOf3s = floor(target/3)
+    numOf5s = floor(target/5)
+    numof15s = floor(target/15)
 
-    for j in range(0, value, 15):
-        sum-=j
-
+    sum3s = 3*(numOf3s)*(numOf3s+1)/2
+    sum5s = 5*(numOf5s)*(numOf5s+1)/2
+    sum15s = 15* (numof15s) *(numof15s+1)/2
+    sum = sum3s + sum5s - sum15s
     print(sum)
-
 main()
