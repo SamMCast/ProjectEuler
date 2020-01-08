@@ -2,5 +2,5 @@
 using namespace std;
 
 int main(){
-    cout << "Yeah http works fine\n";
+    cout << "Yeah ssh works fine.\n";
 }
