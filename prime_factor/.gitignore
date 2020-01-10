@@ -3,6 +3,7 @@
 *.exe 
 *.out
 *
-!*.c
+!*.cpp
 !Makefile
 !.gitignore
+!largest_prime_stats.csv
