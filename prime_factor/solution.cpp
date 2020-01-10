@@ -25,7 +25,7 @@ bool isPrime(long factor){
 
 }
 int main(){
-    long long composite = 60085147514369242;
+    long long composite = 600851475143;
     long long sqrt_factor = floor(sqrt(composite));
     long result =2;
     for (long num = sqrt_factor; num>=2; --num){

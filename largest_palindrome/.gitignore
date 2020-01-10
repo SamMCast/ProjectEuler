@@ -1,0 +1,10 @@
+# Executables
+
+*.exe 
+*.out
+*
+!*.c*
+!*.cpp
+!*.py
+!Makefile
+!.gitignore
